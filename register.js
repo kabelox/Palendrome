@@ -35,6 +35,9 @@ let register = cid.reduce(
         return result;
       }
 
+
+
+      
       //not enough funds nor cash
   if (register.total < change) {
         result.status = "INSUFFICIENT_FUNDS";

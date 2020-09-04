@@ -29,6 +29,7 @@ function telephoneCheck(str) {
     return validPatterns.some(function(item){
         return item.test(str)
     })
+                                
 
                 }
 
